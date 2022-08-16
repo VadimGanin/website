@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+body {
+    background: #f0f0f0;
+    font-family: 'Mulish', sans-serif;
+    max-width: 900px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.info {
+    display: flex;
+}
+
+@media (max-width: 1000px) {
+    .info {
+        display: block;
+    }
+    
+    .main {
+        margin: 20px
+    }
+}
+
+.info p {
+    font-size: 130%;
+}
+
+.info img {
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 120%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.card li {
+    color: #5b5b5c;
+}
+
+.yellow {
+    background: #fffabf;
+}
+
+.blue {
+    background: #dbe4ff;
+}
+
+.green {
+    background: #d7ffd1;
+}
+
+.contact {
+    margin-bottom: 200px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 120%;
+    color: #3f3f40;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    font-size: 120%;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.flex > .form-group {
+    width: 50%;
+}
+
+.flex > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
